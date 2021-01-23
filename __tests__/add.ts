@@ -1,5 +1,5 @@
-import { add } from "../src";
+// import { useTwilioMail } from "../src";
 
-test("It should add two numbers correctly", () => {
-  expect(add(1, 2)).toBe(3);
-});
+// test("It should add two numbers correctly", () => {
+//   expect(useTwilioMail()).toBe(3);
+// });
