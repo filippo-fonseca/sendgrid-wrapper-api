@@ -1,2 +1,3 @@
-# ts-npm-template
-Quickstart a node module with TypeScript
+# `useTwilioMail`
+
+![CI Status](https://github.com/webmail/use-last-fm/workflows/CI/badge.svg)
