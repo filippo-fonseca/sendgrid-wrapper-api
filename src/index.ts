@@ -1,4 +1,4 @@
-const sgMail = require("@sendgrid/mail");
+import sgMail from "@sendgrid/mail";
 import { IMsg } from "./Interfaces";
 
 export const useTwilioMail = (apiKey: string, obj: IMsg) => {
@@ -8,7 +8,7 @@ export const useTwilioMail = (apiKey: string, obj: IMsg) => {
     .then(() => {
       console.log("Email sent");
     })
-    .catch((error: any) => {
+    .catch((error: Error) => {
       console.error(error);
     });
 };
